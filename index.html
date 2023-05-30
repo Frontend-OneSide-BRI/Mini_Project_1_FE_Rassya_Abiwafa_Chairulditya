@@ -8,14 +8,82 @@
     <link rel="stylesheet" href="assets/styles/style.css">
   </head>
   <body>
-    <nav class="navbar bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            GetImage.Co
-          </a>
-          <input type="text" placeholder="search the world's greatest image" style="width: 300px; padding: 8px">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-light py-3 ">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">GetYouImage.Co</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link fw-medium" aria-current="page" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-medium" aria-current="page" href="#">Category 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-medium" aria-current="page" href="#">Category 2</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" placeholder="Search" aria-label="search the world's greates image">
+          </form>
         </div>
-      </nav>
+      </div>
+    </nav>
+
+    <!-- Caroussel -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner d-flex gap-5">
+        <div class="carousel-item active position-relative" data-bs-interval="5000">
+          <div class="text position-absolute">
+            <h1>Curated Concepts : <span>Building Trust</span></h1>
+            <p>Curated images by our visual experts to help you make an emotional connection with you audiene</p>
+          </div>
+          <img src="https://source.unsplash.com/collection/928423/480x480&1" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item position-relative" data-bs-interval="5000">
+          <div class="text position-absolute">
+            <h1>Curated Concepts : <span>Building Trust</span></h1>
+            <p>Curated images by our visual experts to help you make an emotional connection with you audiene</p>
+          </div>
+          <img src="https://source.unsplash.com/collection/928423/480x480&2" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item position-relative" data-bs-interval="5000">
+          <div class="text position-absolute">
+            <h1>Curated Concepts : <span>Building Trust</span></h1>
+            <p>Curated images by our visual experts to help you make an emotional connection with you audiene</p>
+          </div>
+          <img src="https://source.unsplash.com/collection/928423/480x480&3" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Tabs -->
+    <ul class="nav nav-pills nav-justified">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Category 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Category 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Category 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Category 1</a>
+      </li>
+    </ul>
 
       
 
