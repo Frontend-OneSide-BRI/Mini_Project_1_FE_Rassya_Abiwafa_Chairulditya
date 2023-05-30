@@ -63,4 +63,69 @@
 }
 
 /* ~~~~~~~~~~~~~~~~~ Tabs ~~~~~~~~~~~~~~~~~ */
+.tabs{
+    margin-top: 20px;
+}
 
+.tabs ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.tabs ul li{
+    list-style: none;
+}
+
+.tabs ul li a{
+    text-decoration: none;
+    color: rgb(88, 87, 87);
+    font-weight: 500;
+}
+
+.tabs ul li a:hover{
+    color: black;
+    transition: .4s ease-out;
+}
+
+/* ~~~~~~~~~~~~~~~~~ Card Image ~~~~~~~~~~~~~~~~~ */
+
+.card-image{
+    height: 300px;
+    overflow: hidden;
+
+    cursor: pointer;
+}
+
+.card-image:hover img{
+    transform: scale(1.1);
+    filter: brightness(.5);
+    object-fit: cover;
+    transition: .3s ease-in;
+}
+
+.card-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ~~~~~~~~~~~~~~~~~ Footer Content ~~~~~~~~~~~~~~~~~ */
+.footer-wrapper{
+    padding: 40px 40px;
+    background-color: #e3e3e3;
+}
+.footer-content ul{
+ list-style: none;
+ padding: 0;
+ margin: 0;
+}
+
+.footer-content ul li{
+    margin-top: 5px;
+}
+
+.footer-content ul li a{
+    text-decoration: underline;
+    color: black;
+}
