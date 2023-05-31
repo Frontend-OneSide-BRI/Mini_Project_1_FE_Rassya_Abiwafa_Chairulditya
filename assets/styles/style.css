@@ -112,20 +112,23 @@
 
 /* ~~~~~~~~~~~~~~~~~ Footer Content ~~~~~~~~~~~~~~~~~ */
 .footer-wrapper{
-    padding: 40px 40px;
+    padding: 40px 80px;
     background-color: #e3e3e3;
-}
-.footer-content ul{
- list-style: none;
- padding: 0;
- margin: 0;
+
+    display: flex;
+    justify-content: space-between;
 }
 
-.footer-content ul li{
-    margin-top: 5px;
+.footer-wrapper .content ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.footer-content ul li a{
-    text-decoration: underline;
+.footer-wrapper .content ul li{
+    margin-top: 10px;
+}
+
+.footer-wrapper .content ul li a {
     color: black;
 }
