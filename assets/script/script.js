@@ -316,7 +316,7 @@ function showItemsByTag(tag) {
         // Create element
         const h1 = document.createElement('h1')
         h1.classList.add("my-5", "fs-5")
-        h1.innerText="~ gambar tidak ditemukan ~"
+        h1.innerText="sorry, images not found :("
 
         galleryWrapper.appendChild(h1)
 
