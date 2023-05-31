@@ -126,14 +126,14 @@
 }
 
 .tabs ul li a{
-    text-decoration: none;
     color: rgb(88, 87, 87);
     font-weight: 500;
-
     cursor: pointer;
 }
 
 .tabs ul li a:hover{
+    border: 2px solid black;
+    padding: 10px 20px;
     color: black;
     transition: .4s ease-out;
 }
