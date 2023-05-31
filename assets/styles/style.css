@@ -81,6 +81,8 @@
     text-decoration: none;
     color: rgb(88, 87, 87);
     font-weight: 500;
+
+    cursor: pointer;
 }
 
 .tabs ul li a:hover{
